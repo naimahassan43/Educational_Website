@@ -1,4 +1,5 @@
 
+
 *{
   margin: 0;
   padding: 0;
@@ -22,7 +23,7 @@
 
 .custom_navbar li a{
   color: #343a40 !important;
-  float: right;
+ 
   text-align: left;
   transition: .5s;
 }
