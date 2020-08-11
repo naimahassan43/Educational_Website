@@ -1,0 +1,175 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+/*===========Navbar Start=========*/
+#navBar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.custom_nav{
+  padding: 0 !important;
+  background-image: linear-gradient(to right, #86fde8, #acb6e5 );
+}
+
+
+.custom_navbar li a{
+  color: #343a40 !important;
+  float: right;
+  text-align: left;
+  transition: .5s;
+}
+.custom_navbar li a:hover{
+  background-image: linear-gradient(to right, #86fde8, #acb6e5 );
+  color: #fff;
+
+}
+.custom-navbar-toggler{
+  outline: none !important;
+}
+/*========Navbar End======*/
+
+/*======== Banner Start ======*/
+
+#banner{
+  background-image: linear-gradient(to right, #86fde8, #acb6e5 );
+  padding-top: 5%;
+  /*color: #fff;*/
+  
+}
+.cus-play{
+  font-size: 30px;
+}
+
+.cus-img{
+  padding-left: 110px;
+}
+/*======== Banner End ======*/
+/*======== Services Start ======*/
+.custom_title::before{
+ content: '';
+ background: #86fde8;
+ height: 5px;
+ width: 200px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ transform: translateY(54px);
+}
+.custom_title::after{
+ content: '';
+ background: #86fde8;
+ height: 10px;
+ width: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 40px;
+ display: block;
+ transform: translateY(8px);
+}
+#services{
+  padding: 40px 0;
+}
+.service-img{
+  width: 150px;
+  margin-top: 20px;
+}
+.custom_btn{
+  /*box-shadow: none;*/
+  padding: 8px 25px;
+  margin: 0 auto;
+  /*border: none;*/
+  border-radius: 20px;
+  /*background-image: linear-gradient(to right, #86fde8, #acb6e5 );*/
+}
+.custom_btn:hover{
+  background-image: linear-gradient(to right, #86fde8, #acb6e5 );
+  color: white;
+}
+.custom_btn:focus{
+  outline: 0;
+}
+/*======== Services End ======*/
+/*======== About Start ======*/
+
+#about{
+  background-color: #f1f8ff;
+  padding: 40px 0;
+}
+#about ul {
+  margin-left: 20px;
+}
+#about ul li{
+  margin: 8px 0;
+}
+/*======== About End ======*/
+/*======== Testimonials Start ======*/
+ #testimonial{
+  padding: 40px 0;
+ }
+.custom-testimonial{
+  border-left: 4px solid #86fde8;
+  margin: 50px 0;
+}
+
+.custom-testimonial img{
+  width: 60px;
+  height: 60px;
+  border: 3px solid #acb6e5;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.custom-user{
+  display: inline-block;
+
+}
+/*======== Testimonials End ======*/
+
+/*========Social Media Start========*/
+#social{
+  background-color: #f1f8ff;
+  padding: 40px 0;
+}
+
+.custom-icon img{
+  width: 60px;
+  transition: 0.5s;
+
+}
+.custom-icon a:hover img{
+  transform: translateY(-10px);
+}
+/*========Social Media End======== */
+
+/*========Footer Start========*/
+.custom-foot .fa{
+  margin-right: 8px;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+
+  padding: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #86fde8, #acb6e5 );
+
+}
+.custom-foot .custom-form{
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  max-width: 250px
+}
+.custom-foot button{
+   background-image: linear-gradient(to right, #86fde8, #acb6e5 );
+}
+hr{
+  background-color: #fff;
+}
